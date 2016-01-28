@@ -57,7 +57,7 @@ export default funkyFunc;
 ## Installation
 
 ```sh
-$ npm install babel-plugin-babel-strip-test-code
+$ npm install babel-strip-test-code
 ```
 
 ## Usage
