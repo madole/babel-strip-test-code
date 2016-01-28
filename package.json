@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "description": "strip ```exports ___test___ = ...``` code from your codebase",
-  "repository": "madole/babel-plugin-babel-strip-test-code",
+  "repository": "https://github.com/madole/babel-strip-test-code.git",
   "author": "madole <madoliole@gmail.com>",
   "main": "lib/index.js",
   "devDependencies": {
