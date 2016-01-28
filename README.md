@@ -3,7 +3,8 @@
 ####Testing your private functions made safe and easy
 
 ###What does it do?
-strips `exports __test__ = ...` code from your codebase
+
+strips ```exports __test__ = ...``` code from your codebase allowing you to expose private functions for testing 
 
 
 ###How do I do it?
