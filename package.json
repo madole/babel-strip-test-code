@@ -1,6 +1,6 @@
 {
   "name": "babel-strip-test-code",
-  "version": "1.1.9",
+  "version": "1.1.10-pre",
   "description": "strip `exports ___test___ = ...` code from your codebase",
   "repository": "https://github.com/madole/babel-strip-test-code.git",
   "author": "madole <madoliole@gmail.com>",
