@@ -1,10 +1,12 @@
 # babel-plugin-babel-strip-test-code
 
+[![Build Status](https://travis-ci.org/madole/babel-strip-test-code.svg?branch=master)](https://travis-ci.org/madole/babel-strip-test-code)
+
 ####Testing your private functions made safe and easy
 
 ###What does it do?
 
-strips ```exports __test__ = ...``` code from your codebase allowing you to expose private functions for testing 
+strips ```exports __test__ = ...``` code from your codebase allowing you to expose private functions for testing
 
 
 ###How do I do it?
