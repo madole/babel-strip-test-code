@@ -12,7 +12,6 @@ function traverseBackUpToGetExportType(path) {
 const StripTestCodeVisitor = {
     Identifier(path) {
         if(path.node.name === IDENTIFIER_NODE_NAME) {
-            console.log(path.parentPath.parentPath.parent.type)
             if(traverseBackUpToGetExportType(path) === EXPORT_NAMED_DECLARATION) {
                 path.parentPath.remove();
             }
